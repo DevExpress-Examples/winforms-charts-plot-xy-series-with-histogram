@@ -4,7 +4,7 @@
 
 # How to Add a Line Series to a Histogram Chart
 
-The following exaple shows how to add a second series to a Histogram chart:
+The following example shows how to plot a common XY series with a histogram in the same chart:
 
 ![](images/histogram-chart.png)
 
