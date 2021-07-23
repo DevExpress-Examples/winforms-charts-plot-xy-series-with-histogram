@@ -1,6 +1,6 @@
 
 *Files to look at*:
-- [Form1,cs](./CS/Form1.cs)/[Form1,vb](./VB/Form1.vb)
+- [Form1,cs](./CS/Form1.cs) ([Form1,vb](./VB/Form1.vb))
 
 # How to Add a Line Series to a Histogram Chart
 
