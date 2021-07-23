@@ -1,7 +1,6 @@
 
 *Files to look at*:
-- [Extensions](./CS/WebFormsDashboardCustomPropertiesSample/Content/Extensions)
-- [Default.aspx](./CS/WebFormsDashboardCustomPropertiesSample/Default.aspx)
+- [Form1,cs](./CS/Form1.cs)
 
 # How to Add a Line Series to a Histogram Chart
 
