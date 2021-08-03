@@ -19,9 +19,7 @@ namespace WindowsFormsApplication1 {
         public List<DataPoint> NormalDistribution { get; private set; }
         public List<DataPoint> Histogram { get; private set; }
        
-
-        public Form1()
-        {
+        public Form1() {
             InitializeComponent();
             CreateDataSource();
 
