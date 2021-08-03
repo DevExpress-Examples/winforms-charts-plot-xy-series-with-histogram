@@ -2,14 +2,13 @@
 *Files to look at*:
 - [Form1.cs](./CS/Form1.cs) ([Form1.vb](./VB/Form1.vb))
 
-# How to Add a Line Series to a Histogram Chart
+# How to Plot a Common XY Series with a Histogram in the WinForms Chart
 
 The following example shows how to plot a common XY series with a histogram in the same chart:
 
 ![](images/histogram-chart.png)
 
-1. Create histogram and line series and add them to the [ChartControl.Series](https://docs.devexpress.com/WindowsForms/DevExpress.XtraCharts.ChartControl.Series) collection.
-2. Use the [Series.DataSource](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.Series.DataSource) property to bind each series to an individual data source.
+In this example, a Line series displays a normal distribution curve on the secondary axis and aligns with a histogram on the primary axis.
 
 ## Documentation
 
