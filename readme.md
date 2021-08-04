@@ -2,13 +2,13 @@
 *Files to look at*:
 - [Form1.cs](./CS/Form1.cs) ([Form1.vb](./VB/Form1.vb))
 
-# How to Plot a Common XY Series with a Histogram in the WinForms Chart
+# How to Plot an XY Series with a Histogram in the WinForms Chart
 
-The following example shows how to plot a common XY series with a histogram in the same chart:
+The following example shows how to plot an XY series with a histogram in the same chart:
 
 ![](images/histogram-chart.png)
 
-In this example, a Line series displays a normal distribution curve on the secondary axis and aligns with a histogram on the primary axis.
+In this example, a Line series displays a normal distribution curve on the secondary axis and is aligned with a histogram on the primary axis.
 
 ## Documentation
 
