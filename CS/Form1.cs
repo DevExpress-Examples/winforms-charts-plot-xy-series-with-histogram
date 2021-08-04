@@ -54,7 +54,6 @@ namespace WindowsFormsApplication1 {
 
             line.DataSource = NormalDistribution;
             histogram.DataSource = Histogram;
-
         }
 
         void CreateDataSource() {
