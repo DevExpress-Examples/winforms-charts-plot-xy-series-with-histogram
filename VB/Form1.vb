@@ -42,11 +42,10 @@ Namespace WindowsFormsApplication1
 			InitializeComponent()
 			CreateDataSource()
 
-'INSTANT VB NOTE: The variable histogram was renamed since Visual Basic does not handle local variables named the same as class members well:
-			Dim histogram_Renamed As New Series("Histogram", ViewType.Bar)
-			histogram_Renamed.ArgumentDataMember = "XValue"
-			chartControl1.Series.Add(histogram_Renamed)
-			CType(histogram_Renamed.View, BarSeriesView).AggregateFunction = SeriesAggregateFunction.Histogram
+			Dim histogram As New Series("Histogram", ViewType.Bar)
+			histogramd.ArgumentDataMember = "XValue"
+			chartControl1.Series.Add(histogram)
+			CType(histogram.View, BarSeriesView).AggregateFunction = SeriesAggregateFunction.Histogram
 
 			Dim line As New Series("Line", ViewType.Spline)
 			line.ArgumentDataMember = "XValue"
