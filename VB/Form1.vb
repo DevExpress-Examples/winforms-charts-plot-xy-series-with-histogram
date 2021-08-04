@@ -43,7 +43,7 @@ Namespace WindowsFormsApplication1
 			CreateDataSource()
 
 			Dim histogram As New Series("Histogram", ViewType.Bar)
-			histogramd.ArgumentDataMember = "XValue"
+			histogram.ArgumentDataMember = "XValue"
 			chartControl1.Series.Add(histogram)
 			CType(histogram.View, BarSeriesView).AggregateFunction = SeriesAggregateFunction.Histogram
 
@@ -72,7 +72,7 @@ Namespace WindowsFormsApplication1
 			lineView.AxisX = secondaryAxisX
 
 			line.DataSource = NormalDistribution
-			histogram_Renamed.DataSource = Histogram
+			histogram.DataSource = Histogram
 
 		End Sub
 
