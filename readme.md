@@ -1,6 +1,8 @@
 
+<!-- default file list -->
 *Files to look at*:
 - [Form1.cs](./CS/Form1.cs) ([Form1.vb](./VB/Form1.vb))
+<!-- default file list end -->
 
 # How to Plot an XY Series with a Histogram in the WinForms Chart
 
