@@ -4,12 +4,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-<!-- default file list -->
-*Files to look at*:
-- [Form1.cs](./CS/Form1.cs) ([Form1.vb](./VB/Form1.vb))
-<!-- default file list end -->
-
-# How to Plot an XY Series with a Histogram in the WinForms Chart
+# Chart for WinForms - Plot an XY Series with a Histogram in the WinForms Chart
 
 The following example shows how to plot an XY series with a histogram in the same chart:
 
@@ -20,3 +15,7 @@ In this example, a Line series displays a normal distribution curve on the secon
 ## Documentation
 
 - [Histogram](https://docs.devexpress.com/WindowsForms/400824/controls-and-libraries/chart-control/data-representation/histogram)
+
+## Files to Look At
+
+* [Form1.cs](./CS/Form1.cs) ([Form1.vb](./VB/Form1.vb))
