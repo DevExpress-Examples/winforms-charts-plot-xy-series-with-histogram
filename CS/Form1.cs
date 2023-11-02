@@ -43,7 +43,7 @@ namespace WindowsFormsApplication1 {
             diagram.AxisX.NumericScaleOptions.IntervalOptions.GridLayoutMode = GridLayoutMode.GridShiftedLabelCentered;
             diagram.AxisX.NumericScaleOptions.IntervalOptions.Count = BinCount;
             diagram.AxisX.NumericScaleOptions.IntervalOptions.DivisionMode = IntervalDivisionMode.Count;
-            diagram.AxisX.Label.TextPattern = "{}{OB}{A1:F1}, {A2:F1}{CB}";
+            diagram.AxisX.NumericScaleOptions.IntervalOptions.Pattern = "{OB}{A1:F1}, {A2:F1}{CB}";
             SecondaryAxisY secondaryAxisY = new SecondaryAxisY();
             diagram.SecondaryAxesY.Add(secondaryAxisY);
             lineView.AxisY = secondaryAxisY;
